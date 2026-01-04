@@ -932,7 +932,7 @@ function addStaple(name) {
     staples.items.push({
         id: `staple_${Date.now()}`,
         name: name.trim(),
-        inStock: true  // 追加時は「あり」
+        inStock: false  // 追加時は「なし」（在庫切れで追加することが多いため）
     });
     saveData(STORAGE_KEYS.STAPLES, staples);
     renderStaplesList();
