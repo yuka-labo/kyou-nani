@@ -2,7 +2,7 @@
    きょう何食べる？ - Service Worker
 ======================================== */
 
-const CACHE_NAME = 'kyou-nani-v1';
+const CACHE_NAME = 'kyou-nani-v2';
 const ASSETS = [
     '/',
     '/index.html',
